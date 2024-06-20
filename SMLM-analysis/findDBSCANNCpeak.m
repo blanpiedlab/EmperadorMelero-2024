@@ -1,5 +1,10 @@
 function peak = findDBSCANNCpeak(nclocs,psize,varargin)
-%PAD for NDMAR project. This code borrows a strategy from our NC detection
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Poorna Dharmasri
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
+%This code borrows a strategy from our NC detection
 %approach and finds a peak of highest density within a NC that has been
 %detected using DBSCAN, which does not generate a point of highest density.
 %It is advantageous for us to use the peak density point within a
@@ -11,7 +16,7 @@ function peak = findDBSCANNCpeak(nclocs,psize,varargin)
 %such as 'randomizations', to alter the number of random NCs we test below,
 %and Tra, which is a factor that changes the search radius to look for
 %nearest neighbor points in the real NC.
-%PAD here to borrow this for LCv2KO analysis on 10.25.22. Added a section
+%Written by PAD, updated 10.25.22 to add a section
 %for this to handle 3D data.
 
 p = inputParser;
