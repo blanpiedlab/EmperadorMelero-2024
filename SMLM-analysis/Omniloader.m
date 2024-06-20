@@ -1,4 +1,9 @@
 %% [headerstring,loc,col] = Omniloader(filename,varargin)
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Aaron D Levy
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
 % This function will read in one of 3 localization filetypes: .csv, .txt, and .hdf5
 % And extract a header string for it, defining all the columns.
 % Optionally, it will also convert any column with the header including [nm]
@@ -34,7 +39,7 @@
 %     -col: struct "col" containing the column numbers of each field, it is
 %     the output of the "getColumns" function
 %
-% Created 3/26/20 by Aaron Levy during Coronacation 2K20
+% Created 3/26/20 by Aaron Levy
     
 
 function [headerstring, loc, col] = Omniloader(filename,varargin)
