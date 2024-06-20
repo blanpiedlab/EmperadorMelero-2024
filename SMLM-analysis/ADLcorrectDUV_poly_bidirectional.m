@@ -1,4 +1,9 @@
 %% [headerstring, loc] = ADLcorrectDUV_poly_bidirectional(filename,pixelsize,varargin)
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Aaron D Levy
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
 % Uses tforml2r.mat or tformr2l.mat file generated from ADLmakeTform_poly_bidirectional
 % to overlay left and right side of dual-view imaged SMLM.
 %
