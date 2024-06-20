@@ -1,4 +1,9 @@
 %% dilatedCluster = dilateCluster(clusterLoc,ringwidth,psize,varargin)
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Poorna Dharmasri, Aaron D Levy
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
 % This function takes a synaptic cluster and dilates it by distance
 % ringwidth to expand the cluster (or contract if ringwidth<0)
 % REQUIRED INPUTS
