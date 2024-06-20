@@ -1,4 +1,9 @@
 %% [filteredLoc, overlap, nonoverlap] = findPSDoverlap_nlocs(refloc,testloc,col,boxnm,psize,nlocs)
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Aaron D Levy
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
 % Function findPSDoverlap will take a reference loc table with cluster data
 % and a variable number of test loc tables and filter the reference loc
 % table to only clusters that have overlap with the test loc tables. For
@@ -36,7 +41,7 @@
 % overlap with bsnLoc, and nonoverlap{2} is the same for n2aLoc.
 % - Will save filteredClusterNumbers.mat which holds overlap and nonoverlap 
 % Written ADL 2/1/2022
-% Requires AAAAAA subfunctions sortByField
+% Requires subfunctions sortByField
 
 function [filteredLoc, overlap, nonoverlap] = findPSDoverlap_nlocs(refloc,testloc,col,boxnm,psize,nlocs)
     
