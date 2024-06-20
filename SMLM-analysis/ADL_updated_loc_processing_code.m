@@ -5,8 +5,12 @@
 %        >bead images
 %        >Rgn 1 - n
 %           >with nd2 files, or with existing _left/right_locs files
-% Requires picasso 0.6.0 and modified functions in the picassosr python library from
-% ADL
+% Requires picassosr 0.6.0 installed in python and linked to windows cmd via environment variable
+% Must update __main__.py in the picassosr package with __main__0pt6.py here.
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Aaron D Levy
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
 
 clear; clc;
 % Add required functions
