@@ -1,4 +1,9 @@
 %% [in, out, dbs_hs] = clusterFilter(dbscanfile,clusterfile,std_range,varargin)
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Aaron D Levy
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
 % Function clusterFilter will take Picasso DBSCAN output and filter the
 % clusters based on mean_frame and std_frame to remove clusters of spurious
 % binding.
