@@ -1,4 +1,9 @@
 %% function RPTP(loc, hs, oldName, addsfx, varargin)
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Poorna Dharmasri, Aaron D Levy
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
 %**************************************************************************
 % RPTP = version 2.0 of returnPicassotoPicasso function. This version is
 % upgraded to handle all Picasso output formats (2d/3d/merged) and to
@@ -40,8 +45,7 @@
 % fixed groups field not being an integer bug 4/25/22 ADL
 % edited ADL 5/6/22 to handle full paths or just filenames with both addsfx
 % and changename
-% edited ADL 5/16/22 to make it not reorder columns (ie fixed the great "oh
-% god photons are column 6 now?" problem 2k22) (ie the order of locs is now
+% edited ADL 5/16/22 to make it not reorder columns (ie the order of locs is now
 % based on column number, not the order of the col struct)
 % edited ADL 4/24/23 to add changepath
 %  This file is intended for use with HDF5 Library version 1.8
