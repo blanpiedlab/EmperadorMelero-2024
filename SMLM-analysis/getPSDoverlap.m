@@ -1,5 +1,9 @@
 function pctoverlap = getPSDoverlap(psdlocs,otherlocs)
-
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Sarah Metzbower, Aaron D Levy
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
     % Inputs:
     % psdlocs - xy coordinates of a scaffold protein, eg. PSD95
     % otherlocs - xy coordinates of another other protein whose pct overlap
