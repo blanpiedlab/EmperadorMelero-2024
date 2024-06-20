@@ -1,4 +1,9 @@
 %% function smoothed = smoothEnrichment(data,cutoffs)
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Aaron D Levy
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
 % This function will smooth enrichment curves by doing the following:
 % 1) run prepEnrichmentForOutliers on data to first convert trailing 0 to
 % nan and crop out first column
