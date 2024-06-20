@@ -1,4 +1,9 @@
 %% function col = getColumns(headerstring)
+% ‚ÄúDistinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses‚Äù
+% Emperador-Melero et al, 2024
+% authors: Aaron D Levy
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
 % This function will return a struct col with the column indices for
 % localization files loaded with Omniloader. For example, 
 %   [headerstring,loc] = Omniloader('all_localizations_found0.txt');
@@ -7,19 +12,19 @@
 %      frame: 8
 %          x: 1
 %          y: 2
-%          z: [1◊0 double]
+%          z: [1√ó0 double]
 %     sigmax: 3
 %     sigmay: 6
 %       phot: 10
 %      error: 13
-%        lpx: [1◊0 double]
-%        lpy: [1◊0 double]
+%        lpx: [1√ó0 double]
+%        lpy: [1√ó0 double]
 %        amp: 4
 %         R2: 14
 % This should work for matlab .txt files, ThunderSTORM MLE and Phasor 2d/3d
 % .csv files, Picasso ThunderSTORM-formatted .csv files, and Picasso .hdf5
 % files (2d/3d).
-% 4/8/20 Aaron Levy during coronacation 2020.
+% 4/8/20 Aaron Levy
 function col = getColumns(headerstring)
 
 if isempty(headerstring)
