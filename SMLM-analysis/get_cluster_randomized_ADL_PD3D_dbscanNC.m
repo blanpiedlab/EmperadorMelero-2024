@@ -1,4 +1,9 @@
 function randcluster = get_cluster_randomized_ADL_PD3D_dbscanNC(xyz,factor,psize,flag)
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Aaron D Levy, Aihui Tang, Poorna Dharmasri
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
 % function used to randomize all localizations inside a cluster A
 % input:
 % A: [x,y,z]
@@ -9,8 +14,6 @@ function randcluster = get_cluster_randomized_ADL_PD3D_dbscanNC(xyz,factor,psize
 % output:
 % randcluster: new [x,y,z] with all localizations randomized
 
-% Updated 12/2019 by ADL to use all builtin matlab functions (ie alphaShape
-% instead of alphaVol) and cleand up a bit.
 
 if nargin ~= 3
     flag = 0;
