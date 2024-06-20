@@ -1,4 +1,9 @@
 %% associatedGroups = associate_groups(clusterLoc,testLoc,col,dbclust,clustcol,ringwidth,boxsize,psize)
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Poorna Dharmasri, Aaron D Levy
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
 % This function takes a synaptic cluster and tests which groups of another
 % protein have centroids within the dilated polyshape of that cluster
 % Requires dilateCluster function
