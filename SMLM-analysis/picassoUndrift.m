@@ -1,4 +1,9 @@
 %% [outpath,yamlpath,driftpath] = picassoUndrift(locpath,varargin)
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Aaron D Levy
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
 % Function picassoUndrift runs Undrift by RCC from Picasso via the command line.
 % Requires Picasso installed and set correctly to be on the main cmd
 % path variable. 
