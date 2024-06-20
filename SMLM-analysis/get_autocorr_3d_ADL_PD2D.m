@@ -1,4 +1,9 @@
 function out = get_autocorr_3d_ADL_PD2D(A, renderpixel, rmax, psize, flag)
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Aaron D Levy, Poorna Dharmasri, Aihui Tang
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
 % function [out] = get_autocorr_3d_ADL(A, pixel, rmax, ps, flag)
 % calculates autocorrelation function for 3 dimensional images
 %
