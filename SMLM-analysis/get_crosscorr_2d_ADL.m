@@ -1,4 +1,9 @@
 %% function out = get_crosscorr_2d(A, B, psize, renderpixel, rmax, varargin)
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Aaron D Levy, Aihui Tang, Poorna Dharmasri
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
 % calculates crosscorrelation function for 2 dimensional images
 % PLEASE NOTE that this version does NOT do any shifting of the data
 % relative to the peak, as in the 3d code (ie xyzshift). For 2d data, we
