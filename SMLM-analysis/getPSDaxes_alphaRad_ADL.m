@@ -1,4 +1,9 @@
 function [ratio, longaxis, shortaxis] = getPSDaxes_alphaRad_ADL(xycoordinates,varargin)
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Poorna Dharmasri, Aaron D Levy
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
     %This function pulls out the long and short axes of an irregular shape,
     %such as the border of a synapse. It utilizes x and y coordinates (and
     %thus is suited only for 2D synapses as of this writing) to plot the
@@ -24,7 +29,7 @@ function [ratio, longaxis, shortaxis] = getPSDaxes_alphaRad_ADL(xycoordinates,va
     % longaxis = the xy coordinates of the long axis line
     % shortaxis = the xy coordinates of the short axis line
      
-    %Written by PD on 03.31.22 for NMDAR project
+    %Written by PD on 03.31.22 
     
     %Parse inputs
     p = inputParser;
