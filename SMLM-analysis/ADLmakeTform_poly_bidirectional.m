@@ -1,4 +1,9 @@
 %% [x,y,pairs,d] = ADLmakeTform_poly_bidirectional(filename,pixelsize,direction,varargin)
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Aaron D Levy
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+
 % Generates a tform(direction).mat file for correcting dual-view localizations
 % This specific script uses the polynomial form of fitgeotrans function
 % with polynomial of 2.
@@ -77,7 +82,7 @@
 %     5) Pair corresponding locs from left and right side of image that are in the same frame
 %     6) Calculate tform using fitgeotrans on pairs in indicated direction
 %     7) Check result by transforming in indicated direction; save tform.mat
-% Modified and updated by Aaron Levy 3/26/20 during Coronocation 2K20
+% Modified and updated by Aaron Levy 3/26/20 
 % Updated to be bidirectional ADL 1/6/22
 
 function [x,y,pairs,d] = ADLmakeTform_poly_bidirectional(filename,pixelsize,direction,varargin)
