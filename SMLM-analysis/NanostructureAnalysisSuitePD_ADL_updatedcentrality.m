@@ -1,3 +1,9 @@
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Poorna Dharmasri
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
+% Note that this code outputs a lot of analyses, not all of which were used in the paper above.
 %%
 clear
 clc
