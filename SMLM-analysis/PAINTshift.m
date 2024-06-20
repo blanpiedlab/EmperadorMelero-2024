@@ -1,4 +1,9 @@
 function xyzshift = PAINTshift(A, B, renderpixel, psize, rmax, xyzshift, distance)
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Aaron D Levy
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
 % THIS VERSION of the cross correlation shift is specified for re-aligning
 % PAINT acquisitions with gold nanoparticles in the field after DUV
 % correction. In theory, the gold will dominate the cross correlation and
