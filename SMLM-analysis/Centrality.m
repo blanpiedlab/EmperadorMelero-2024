@@ -1,4 +1,9 @@
 %% Centrality - Does a test position within an elliptic synapse occur closer to the center or edge of the ellipse?
+% “Distinct active zone protein machineries mediate Ca2+ channel clustering and vesicle priming at hippocampal synapses”
+% Emperador-Melero et al, 2024
+% authors: Poorna Dharmasri
+% copyright: 2024 Blanpied Lab, Dept of Physiology, University of Maryland School of Medicine
+%
 % Written by PAD on 05/08/2023
 % REQUIRES
 %  REQURIED INPUTS-
